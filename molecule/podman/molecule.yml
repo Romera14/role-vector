@@ -5,8 +5,8 @@ dependency:
 driver:
   name: podman
 platforms:
-  - name: centos7
-    image: docker.io/pycontribs/centos:7
+  - name: podman
+    image: aragast/netology
     pre_build_image: true
 provisioner:
   name: ansible
